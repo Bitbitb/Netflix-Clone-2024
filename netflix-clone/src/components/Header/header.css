@@ -42,10 +42,11 @@
     /* background-color: lightgreen; */
 }
 
-@media screen and (max-width: 578px){
 
-.header_left ul li:not(:first-child){
-       display: none;
-       background-color: red;
-       }
+@media (max-width: 768px) {
+  .header_left li:nth-child(n+2):nth-child(-n+7) {
+    display: none;
+  }
 }
+
+
