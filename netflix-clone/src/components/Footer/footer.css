@@ -44,3 +44,12 @@
     font-size: 12px;
     margin-bottom:10px;
 }
+
+@media screen and (max-width: 600px){
+
+    .footer_data {
+        display: flex;
+        flex-direction: column;
+
+    }
+}
